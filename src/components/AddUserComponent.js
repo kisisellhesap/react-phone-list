@@ -15,10 +15,7 @@ const AddUserComponent = ({ addUser, setAddUser, phoneList, setPhoneList }) => {
 
         setAddUser({ ...addUser, [e.target.name]: e.target.value });
 
-        if (e.key === "Enter") {
-            addUserClick();
-        }
-        console.log(e.key);
+
 
     }
 
