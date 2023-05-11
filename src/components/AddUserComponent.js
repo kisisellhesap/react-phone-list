@@ -18,6 +18,7 @@ const AddUserComponent = ({ addUser, setAddUser, phoneList, setPhoneList }) => {
         if (e.key === "Enter") {
             addUserClick();
         }
+        console.log(e.key);
 
     }
 
