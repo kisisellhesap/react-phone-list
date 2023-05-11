@@ -11,7 +11,14 @@ const AddUserComponent = ({ addUser, setAddUser, phoneList, setPhoneList }) => {
             const text = e.target.value.replace(/[^0-9+" "]/g, '');
             document.querySelector(".phone-number").value = text;
         }
+
+
         setAddUser({ ...addUser, [e.target.name]: e.target.value });
+
+        if (e.key === "Enter") {
+            addUserClick();
+        }
+
     }
 
 
