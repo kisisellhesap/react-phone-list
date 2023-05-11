@@ -5,19 +5,6 @@ import { faPlus, faUserPlus } from '@fortawesome/free-solid-svg-icons';
 
 const AddUserComponent = ({ addUser, setAddUser, phoneList, setPhoneList }) => {
 
-
-
-    // const effect = () => {
-    //     if (!document.querySelector(".add-user-container").classList.contains("effect")) {
-    //         document.querySelector(".add-user-container").classList.add("effect");
-    //     }
-    //     else {
-    //         document.querySelector(".add-user-container").classList.remove("effect");
-    //     }
-
-    //     console.log("a");
-    // }
-
     const addHandleChange = (e) => {
 
         if (e.target.name === "phone_number") {
@@ -25,8 +12,6 @@ const AddUserComponent = ({ addUser, setAddUser, phoneList, setPhoneList }) => {
             document.querySelector(".phone-number").value = text;
         }
         setAddUser({ ...addUser, [e.target.name]: e.target.value });
-
-
     }
 
 
