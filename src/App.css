@@ -139,7 +139,7 @@ body {
 .phone-list {
   width: 40%;
   max-width: 800px;
-  min-width: 480px;
+
   margin: auto;
   flex-direction: column;
   gap: 1rem;
