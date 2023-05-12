@@ -238,6 +238,7 @@ input::placeholder {
   }
 
   .phone-list {
+    width: 90%;
     min-width: 300px;
   }
 
