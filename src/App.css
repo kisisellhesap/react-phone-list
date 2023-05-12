@@ -250,10 +250,9 @@ body {
     flex-direction: column;
   }
 
-  .add-user-inputsi,
-  .add-user-inputs-wrapper,
-  {
-  flex-direction: column;
-  align-items: center;
-}
+  .add-user-inputs,
+  .add-user-inputs-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
 }
