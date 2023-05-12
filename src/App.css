@@ -115,6 +115,7 @@ input::placeholder {
 
 .add-user-inputs-wrapper,
 .user-name-phone-wrapper {
+  width: 100%;
   gap: 1rem;
   justify-content: space-between;
 }
@@ -247,5 +248,10 @@ body {
   .add-user-inputs-wrapper,
   .user-name-phone-wrapper {
     flex-direction: column;
+  }
+
+  .add-user-inputs {
+    flex-direction: column;
+    align-items: center;
   }
 }
