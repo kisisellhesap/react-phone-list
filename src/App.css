@@ -130,6 +130,7 @@ input::placeholder {
   font-family: 'Alkatra', cursive;
   padding-top: 2rem;
   user-select: none;
+  min-width: 300px;
 
 }
 
@@ -239,7 +240,7 @@ input::placeholder {
 
   .phone-list {
     width: 90%;
-    min-width: 300px;
+
   }
 
   .add-user-inputs-wrapper,
