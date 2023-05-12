@@ -115,7 +115,6 @@ input::placeholder {
 
 .add-user-inputs-wrapper,
 .user-name-phone-wrapper {
-  width: 100%;
   gap: 1rem;
   justify-content: space-between;
 }
