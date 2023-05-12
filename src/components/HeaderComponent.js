@@ -14,7 +14,7 @@ const HeaderComponent = ({ filterText, setFilterText }) => {
             <h1 className='app-title'>Phone List</h1>
             <div className='search-input'>
                 <input placeholder='user search' value={filterText} onChange={filterHandleChange} />
-                <FontAwesomeIcon className='fa-icon' icon={faMagnifyingGlass} />
+                <FontAwesomeIcon className='fa-icon search-i' icon={faMagnifyingGlass} />
             </div>
 
         </div>
