@@ -228,7 +228,7 @@ input::placeholder {
 
 @media screen and (max-width:500px) {
   .App {
-    font-size: 14px;
+    font-size: 12px;
   }
 
 
@@ -238,7 +238,7 @@ input::placeholder {
   }
 
   .phone-list {
-    min-width: 290px;
+    min-width: 300px;
   }
 
   .add-user-inputs-wrapper,
